@@ -1,3 +1,56 @@
-.selector{
-    background-color: black; color: white;
+
+#collapseThree .accordion-body img {
+    display: none;
+
+}
+
+#collapseThree .accordion-body a {
+    display: block;
+} 
+
+#tasa{
+    display: block;
+}
+
+
+@media screen and (max-width: 768px){
+    #collapseThree .accordion-body img {
+        display: block;
+    } 
+
+    #collapseThree .accordion-body a {
+        display: none;
+    } 
+
+    .container_carrusel {
+        width: 50px;
+        margin-left: 50px;
+        display: none;
+    }
+
+    #tasa{
+        display: none;
+    }
+
+}
+
+.container_carrusel {
+    width: 700px;
+    margin-left: 350px;
+}
+
+h1{
+    text-align: center;
+    font-style: oblique;
+    font-size: x-large;
+}
+
+p{
+    text-align: center;
+    font-size: x-large;
+
+}
+
+.carousel-controls > .carousel-control-prev-icon, .carousel-controls > .carousel-control-next-icon{
+    color: red !important;
 }
